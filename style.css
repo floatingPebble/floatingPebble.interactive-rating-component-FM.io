@@ -103,7 +103,7 @@ h6 {
     background-color: var(--DARK-BLUE);
     margin-inline: min(6vw, 2rem);
     padding: min(2rem, 6vw);
-    border-radius: 1.8rem;
+    border-radius: 1rem;
 }
 
 .circle {
@@ -233,12 +233,13 @@ h6 {
 }
 
 @media screen and (min-width: 600px) {
-    .rating-question {
-        font-size: 1.88rem;
-    }
-
     .card-container {
         padding: min(2rem, 6vw);
+        border-radius: 1.8rem;
+    }
+
+    .rating-question {
+        font-size: 1.88rem;
     }
 
     .circle {
