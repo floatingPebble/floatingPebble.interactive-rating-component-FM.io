@@ -11,7 +11,7 @@ function takeValue(e) {
     });
 }
 
-async function toggleCardContent() {
+function toggleCardContent() {
     document.getElementById("thank-you-card").hidden = false;
     document.getElementById("rate-us-card").hidden = true;
 }
