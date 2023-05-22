@@ -90,6 +90,7 @@ h6 {
     --MEDIUM-GRAY: hsl(216, 12%, 54%);
     --DARK-BLUE: hsl(213, 19%, 18%);
     --VERY-DARK-BLUE: hsl(216, 12%, 8%);
+    --VERY-DARK-BLUE-GR: hsla(216, 12%, 8%, 0.5);
     --ICON-BG-COLOR: hsla(216, 12%, 54%, 0.1);
 
     font-family: 'Overpass', sans-serif;
@@ -104,6 +105,7 @@ h6 {
     margin-inline: min(6vw, 2rem);
     padding: min(2rem, 6vw);
     border-radius: 1rem;
+    background-image: linear-gradient(var(--DARK-BLUE), var(--VERY-DARK-BLUE-GR));
 }
 
 .circle {
