@@ -98,8 +98,8 @@ h6 {
 }
 
 .card-container {
-    width: clamp(10rem, 25rem, 35rem);
-    height: clamp(10rem, 25rem, 35rem);
+    width: clamp(10rem, 27.645rem, 35rem);
+    height: clamp(10rem, 27.645rem, 35rem);
     background-color: var(--DARK-BLUE);
     margin-inline: min(6vw, 2rem);
     padding: min(2rem, 6vw);
@@ -108,10 +108,10 @@ h6 {
 
 .circle {
     width: fit-content;
-    padding: min(0.9rem, 3.5vw);
+    padding: min(1rem, 3.5vw);
     border-radius: 50%;
     background-color: var(--ICON-BG-COLOR);
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.15rem;
 }
 
 .star {
@@ -119,24 +119,24 @@ h6 {
     height: auto;
 }
 
-h1 {
-    font-size: min (1.8rem, 16vw);
+.rating-question {
+    font-size: min(1.55rem, 16vw);
     font-weight: 400;
     color: var(--WHITE);
     word-spacing: 0.05rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.49rem;
 }
 
 .feedback-request {
-    line-height: 1.4rem;
+    line-height: 1.55rem;
     margin-bottom: 1.7rem;
-    font-size: 0.96rem;
+    font-size: 1rem;
 }
 
 .ratings {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.6rem;
 }
 
 .ratings>* {
@@ -160,14 +160,14 @@ h1 {
 }
 
 .submit-btn {
-    height: 2.8rem;
+    height: 2.95rem;
     line-height: 3rem;
     color: var(--WHITE);
     background-color: var(--ORANGE);
     border: none;
     border-radius: 5rem;
     letter-spacing: 0.12rem;
-    font-size: min(0.9rem, 3.7vw);
+    font-size: min(1rem, 3.7vw);
 }
 
 .submit-btn:hover {
@@ -203,7 +203,7 @@ h1 {
 .client-rating-container {
     color: var(--RATING-RESULT-BG);
     background-color: var(--ICON-BG-COLOR);
-    padding: 0.35rem 0.9rem 0.15rem 0.9rem;
+    padding: 0.42rem 1.15rem 0.22rem 1.15rem;
     margin-top: 1.5rem;
     border-radius: 20rem;
     text-align: center;
@@ -211,8 +211,10 @@ h1 {
 }
 
 .thank-you-title {
-    font-size: 1.55rem;
-    margin-top: 1.5rem;
+    font-size: 1.58rem;
+    margin-block: 1.65rem 0.6rem;
+    color: var(--WHITE);
+    font-weight: 400;
 }
 
 .thank-you-msg {
@@ -231,20 +233,46 @@ h1 {
 }
 
 @media screen and (min-width: 600px) {
-    h1 {
-        font-size: 1.6rem;
+    .rating-question {
+        font-size: 1.88rem;
     }
 
     .card-container {
-        padding: min(1.79rem, 6vw);
+        padding: min(2rem, 6vw);
+    }
+
+    .circle {
+        margin-top: 0.3rem;
+        margin-bottom: 1.9rem;
     }
 
     .client-rating-container {
         margin-top: 2rem;
+        font-size: 1rem;
     }
 
     .thank-you-title {
-        font-size: 1.7rem;
-        margin-top: 1.9rem;
+        margin-top: 2.2rem;
+        font-size: 1.85rem;
+    }
+
+    .ratings {
+        margin-bottom: 2.23rem;
+    }
+
+    .ratings>* {
+        width: min(3.4rem, 11vw);
+        height: min(3.4rem, 11vw);
+    }
+
+    .thank-you-img {
+        width: 10.7rem;
+        height: auto;
+        margin-top: 0.55rem;
+    }
+
+    .thank-you-msg {
+        font-size: 1rem;
+        margin-inline: 0.5rem;
     }
 }
