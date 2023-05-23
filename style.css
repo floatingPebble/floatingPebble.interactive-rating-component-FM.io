@@ -146,6 +146,8 @@ h6 {
     height: min(3.2rem, 11vw);
     line-height: min(3.2rem, 11vw);
     text-align: center;
+    color: var(--LIGHT-GRAY);
+    border: none;
     border-radius: 50%;
     background-color: var(--ICON-BG-COLOR);
 }
